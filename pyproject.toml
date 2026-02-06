@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sediment-bench"
+version = "0.1.0"
+description = "Benchmark harness for AI agent memory systems"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "chromadb==1.0.7",
+    "letta-client>=0.1.0",
+    "mcp>=1.26.0",
+    "mem0ai>=1.0.3,<2.0",
+    "litellm>=1.0",
+    "sentence-transformers>=3.0",
+]
+
+[project.optional-dependencies]
+generate = [
+    "anthropic>=0.52.0",
+]
+dev = [
+    "pytest==8.3.4",
+    "pytest-asyncio==0.25.3",
+]
+
+[tool.setuptools.packages.find]
+include = ["adapters*", "dataset*", "metrics*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

@@ -1,0 +1,200 @@
+{"id": "q_001", "query": "Sidekiq asynchronous job processing email sending", "expected": ["mem_0050"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_002", "query": "Snowflake IDs primary keys time-based ordering", "expected": ["mem_0033"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_003", "query": "Elasticsearch full-text search faceted search fuzzy matching", "expected": ["mem_0011"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_004", "query": "blue-green deployment strategy eliminate downtime", "expected": ["mem_0109"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_005", "query": "PgBouncer connection pooling database connections", "expected": ["mem_0021"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_006", "query": "database sharding user_id hash PostgreSQL instances", "expected": ["mem_0175", "mem_0023"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_007", "query": "S3 user uploads horizontal scaling web servers", "expected": ["mem_0112"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_008", "query": "Redis session storage horizontal scaling API servers", "expected": ["mem_0052"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_009", "query": "Terraform infrastructure as code AWS Azure", "expected": ["mem_0161"], "category": "architecture", "difficulty": "easy"}
+{"id": "q_010", "query": "Jest unit test file naming convention", "expected": ["mem_0307"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_011", "query": "OpenAPI generator TypeScript client pattern", "expected": ["mem_0239"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_012", "query": "saga pattern distributed transactions orchestration", "expected": ["mem_0238"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_013", "query": "Go channels worker pools pattern", "expected": ["mem_0346"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_014", "query": "Express middleware named function pattern next()", "expected": ["mem_0351"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_015", "query": "feature flags config service cached locally", "expected": ["mem_0350"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_016", "query": "React ErrorBoundary wrap route components", "expected": ["mem_0226"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_017", "query": "rate limiting express-rate-limit Redis store", "expected": ["mem_0228"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_018", "query": "Rust ownership borrow &T &mut T pattern", "expected": ["mem_0394"], "category": "code_patterns", "difficulty": "easy"}
+{"id": "q_019", "query": "trailing commas in multi-line arrays and objects", "expected": ["mem_0502"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_020", "query": "named exports over default exports in TypeScript", "expected": ["mem_0461"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_021", "query": "squash commits before merging to main branch", "expected": ["mem_0522"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_022", "query": "database migrations over direct schema changes", "expected": ["mem_0496"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_023", "query": "semantic HTML elements header nav main article instead of divs", "expected": ["mem_0487"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_024", "query": "conventional commits format type scope description", "expected": ["mem_0526"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_025", "query": "const by default let when reassignment necessary never var", "expected": ["mem_0514"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_026", "query": "strict equality === instead of loose equality ==", "expected": ["mem_0483"], "category": "user_preferences", "difficulty": "easy"}
+{"id": "q_027", "query": "New Relic APM license key environment variable", "expected": ["mem_0745"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_028", "query": "LaunchDarkly SDK key feature flags", "expected": ["mem_0683"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_029", "query": "Nginx reverse proxy SSL termination ports 443 80", "expected": ["mem_0646"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_030", "query": "staging Aurora PostgreSQL db.r6g.xlarge automatic backups", "expected": ["mem_0565"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_031", "query": "Apache Kafka cluster brokers kafka-prod", "expected": ["mem_0682"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_032", "query": "recommendation-engine TensorFlow CUDA cuDNN g5.2xlarge", "expected": ["mem_0591"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_033", "query": "MAX_UPLOAD_SIZE 52428800 bytes 50MB file-service", "expected": ["mem_0567"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_034", "query": "Snyk security vulnerability scanning 2:00 AM UTC critical findings", "expected": ["mem_0630"], "category": "project_facts", "difficulty": "easy"}
+{"id": "q_035", "query": "React app blank page in production unexpected token", "expected": ["mem_0782"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_036", "query": "Postgres queries slower after vacuum statistics", "expected": ["mem_0758"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_037", "query": "WebSocket connections dropping after 60 seconds ALB timeout", "expected": ["mem_0812"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_038", "query": "Ansible playbook idempotency broken shell module", "expected": ["mem_0846"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_039", "query": "React minified error 130 wrong Hook call order", "expected": ["mem_0876"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_040", "query": "API response time spike N+1 query problem JPA", "expected": ["mem_0865"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_041", "query": "Prisma migrations failing prepared statement already exists", "expected": ["mem_0796"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_042", "query": "Python tests failing dictionary changed size during iteration", "expected": ["mem_0872"], "category": "troubleshooting", "difficulty": "easy"}
+{"id": "q_043", "query": "payment processing integration using payment-gateway-adapter", "expected": ["mem_0999"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_044", "query": "authentication token strategy short-lived access tokens project-zeta", "expected": ["mem_0988"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_045", "query": "PostgreSQL migration connection pooling pgbouncer configuration", "expected": ["mem_0902"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_046", "query": "WebSocket gateway drops connections after 5 minutes ping pong heartbeats", "expected": ["mem_0917"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_047", "query": "cost attribution system tags cloud resources showback reports", "expected": ["mem_0983"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_048", "query": "webhook delivery system automatic retries dead letter queues", "expected": ["mem_0977"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_049", "query": "background job workers sidekiq-wrapper concurrency settings", "expected": ["mem_0929"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_050", "query": "feature flag system integrates with CI/CD pipeline deployment tracking", "expected": ["mem_0955"], "category": "cross_project", "difficulty": "easy"}
+{"id": "q_051", "query": "How do we handle retrying failed transactions without processing them multiple times?", "expected": ["mem_0144"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_052", "query": "What strategies reduce container image sizes to speed up deployments?", "expected": ["mem_0166"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_053", "query": "What protocols provide better performance and type safety for service-to-service communication?", "expected": ["mem_0153"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_054", "query": "How do we distribute static content globally to minimize response times?", "expected": ["mem_0156"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_055", "query": "What approach balances microservice independence with consistent reference information?", "expected": ["mem_0073"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_056", "query": "How do we speed up reporting workloads when slight data delays are acceptable?", "expected": ["mem_0077"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_057", "query": "What technology enables one-way server push notifications with better proxy compatibility?", "expected": ["mem_0176"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_058", "query": "How do we process images on-demand without paying for idle compute resources?", "expected": ["mem_0028"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_059", "query": "What tools let us version control cloud infrastructure configurations?", "expected": ["mem_0124"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_060", "query": "How do we improve search engine visibility while maintaining interactive single-page experiences?", "expected": ["mem_0017"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_061", "query": "What database topology separates heavy analytical workloads from transactional operations?", "expected": ["mem_0087", "mem_0015"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_062", "query": "What proxy technology adds observability and security between services transparently?", "expected": ["mem_0071"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_063", "query": "Which managed database provides superior read scalability with automatic recovery?", "expected": ["mem_0164"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_064", "query": "How do we ensure API contracts stay synchronized between servers and clients?", "expected": ["mem_0084"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_065", "query": "What techniques prevent race conditions during simultaneous cart modifications?", "expected": ["mem_0189"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_066", "query": "How do we coordinate multi-step operations across services without tight coordination?", "expected": ["mem_0067"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_067", "query": "What storage solution provides consistent ultra-low latency for temporary user data?", "expected": ["mem_0168"], "category": "architecture", "difficulty": "medium"}
+{"id": "q_068", "query": "How do I protect my API from excessive requests using Redis and time-based quotas?", "expected": ["mem_0385"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_069", "query": "What naming conventions should I follow for React props, API responses, and configuration objects in TypeScript?", "expected": ["mem_0207"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_070", "query": "How can I create reusable test data generators that produce consistent random values?", "expected": ["mem_0368"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_071", "query": "What's the best approach for defining small composable contracts in Go to simplify mocking?", "expected": ["mem_0328"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_072", "query": "Which standard Rust traits should I implement for type conversion and string representation?", "expected": ["mem_0276"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_073", "query": "What structure should my API error messages follow to maintain consistency across endpoints?", "expected": ["mem_0267", "mem_0364"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_074", "query": "How should I handle asynchronous database operations in Python using modern async patterns?", "expected": ["mem_0308"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_075", "query": "What's the recommended way to create custom error types in Rust with descriptive messages?", "expected": ["mem_0304", "mem_0210"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_076", "query": "How do I separate read and write operations in my application architecture for better scalability?", "expected": ["mem_0300"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_077", "query": "What approach should I use for enabling or disabling new features gradually for specific users?", "expected": ["mem_0350"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_078", "query": "How can I add type-safe custom properties to third-party library types in TypeScript?", "expected": ["mem_0347"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_079", "query": "What's the best way to handle component communication without passing props through multiple layers?", "expected": ["mem_0249", "mem_0292"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_080", "query": "How should I implement secure direct-to-cloud storage uploads with validation?", "expected": ["mem_0288", "mem_0383"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_081", "query": "What's the proper way to organize exports and internal implementation in Node.js modules?", "expected": ["mem_0257"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_082", "query": "How do I create extensible plugin architectures in Rust that work across threads?", "expected": ["mem_0337"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_083", "query": "What parameters should I accept and return for navigating through large result sets efficiently?", "expected": ["mem_0372", "mem_0247"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_084", "query": "How should I configure and monitor database connection reuse in my application?", "expected": ["mem_0330", "mem_0244"], "category": "code_patterns", "difficulty": "medium"}
+{"id": "q_085", "query": "How should I format backtick strings versus plus sign joining in JavaScript?", "expected": ["mem_0476"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_086", "query": "What editor do you work in and do you mainly use mouse or keyboard navigation?", "expected": ["mem_0425"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_087", "query": "Should I export this module as a default or give it a specific name?", "expected": ["mem_0521", "mem_0461"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_088", "query": "What shell environment and command abbreviations do you have configured?", "expected": ["mem_0433"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_089", "query": "Should I worry about indentation and whitespace in my code suggestions?", "expected": ["mem_0467"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_090", "query": "What visual appearance settings do you use for your development environment?", "expected": ["mem_0544"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_091", "query": "How do you handle styling in React components - inline, global stylesheets, or something else?", "expected": ["mem_0486"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_092", "query": "Should I write out the return type even when TypeScript can figure it out automatically?", "expected": ["mem_0423"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_093", "query": "When working with promises, which syntax style do you find clearer - then/catch or the newer async syntax?", "expected": ["mem_0457"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_094", "query": "Is it okay to shorten variable names like using 'usr' instead of 'user'?", "expected": ["mem_0491", "mem_0458"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_095", "query": "Should we create separate branches for new features or use toggles to hide unfinished work?", "expected": ["mem_0479"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_096", "query": "Which quote character should I use for string literals in JavaScript code?", "expected": ["mem_0508"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_097", "query": "What approach do you recommend for managing application state in React apps?", "expected": ["mem_0485"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_098", "query": "How should database schema modifications be tracked and applied?", "expected": ["mem_0496", "mem_0549"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_099", "query": "When a user action might fail, should the UI wait for server confirmation or update immediately?", "expected": ["mem_0546"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_100", "query": "Should repeated text values like status messages be hardcoded throughout the codebase?", "expected": ["mem_0431"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_101", "query": "Where should test files be organized in relation to the code they're testing?", "expected": ["mem_0548"], "category": "user_preferences", "difficulty": "medium"}
+{"id": "q_102", "query": "What regulations govern the handling of medical patient information in our systems?", "expected": ["mem_0648", "mem_0713"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_103", "query": "How do we manage our cloud infrastructure using declarative configuration?", "expected": ["mem_0686"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_104", "query": "Where are the credentials for our payment gateway securely maintained?", "expected": ["mem_0627"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_105", "query": "What availability guarantees do we provide to customers for our API services?", "expected": ["mem_0656"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_106", "query": "What are the time requirements for handling European privacy rights requests?", "expected": ["mem_0564"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_107", "query": "Which information security standard do we maintain and how often is it verified?", "expected": ["mem_0589"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_108", "query": "How frequently do we collect observability data from our services?", "expected": ["mem_0586"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_109", "query": "Where can I find the automated build system for transaction processing?", "expected": ["mem_0602"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_110", "query": "What mail relay service do we use for sending automated messages?", "expected": ["mem_0638"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_111", "query": "Who makes final decisions on system design and reviews code changes?", "expected": ["mem_0655"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_112", "query": "What percentage of our codebase must be validated by automated tests?", "expected": ["mem_0696"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_113", "query": "Which cloud provider region hosts our pre-production customer-facing API?", "expected": ["mem_0668"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_114", "query": "Who approves software for deployment to live environments?", "expected": ["mem_0587"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_115", "query": "What technology powers our full-text search capabilities and where is it hosted?", "expected": ["mem_0631"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_116", "query": "Which SMS provider do we integrate with for alerts and messages?", "expected": ["mem_0734"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_117", "query": "What percentage of users see new features before everyone else?", "expected": ["mem_0597"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_118", "query": "When does our annual security controls audit take place and what tool tracks it?", "expected": ["mem_0571"], "category": "project_facts", "difficulty": "medium"}
+{"id": "q_119", "query": "Why does my repository take forever to download during continuous integration?", "expected": ["mem_0791"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_120", "query": "Production deployment shows empty screen but dev environment works perfectly", "expected": ["mem_0876"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_121", "query": "Container image creation is extremely slow and ignores previous layers", "expected": ["mem_0773"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_122", "query": "Scheduled task consuming excessive processor resources when it should be idle", "expected": ["mem_0784"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_123", "query": "Compilation process is unbearably slow for our type-checked JavaScript project", "expected": ["mem_0862"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_124", "query": "Schema updates work in staging but lock up in production environment", "expected": ["mem_0860"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_125", "query": "Test suite is unreliable on build server but stable on developer machines", "expected": ["mem_0854"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_126", "query": "Identical source code produces different artifact checksums on each build", "expected": ["mem_0895"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_127", "query": "Cloud storage uploads complete successfully but downloaded files are damaged", "expected": ["mem_0873"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_128", "query": "Serverless function deployment succeeds but code execution fails immediately", "expected": ["mem_0849"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_129", "query": "Build pipeline runs out of storage space on automation server", "expected": ["mem_0752"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_130", "query": "Module bundler crashes with memory exhaustion on CI but not locally", "expected": ["mem_0760"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_131", "query": "Service experiences predictable performance degradation at the same time nightly", "expected": ["mem_0802"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_132", "query": "Configuration management tool reports modifications on every execution", "expected": ["mem_0846"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_133", "query": "Message broker queue fills up but no processing occurs", "expected": ["mem_0833"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_134", "query": "Application memory usage grows continuously until system kills the process", "expected": ["mem_0755", "mem_0800"], "category": "troubleshooting", "difficulty": "medium"}
+{"id": "q_135", "query": "How do I prevent database timeouts when performing bulk operations on customer records?", "expected": ["mem_0922"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_136", "query": "Why aren't my configuration changes taking effect immediately in production?", "expected": ["mem_0909"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_137", "query": "What sensitive data fields get automatically masked in our logs?", "expected": ["mem_0906"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_138", "query": "How should I assign users to different experiment variations?", "expected": ["mem_0939"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_139", "query": "What preparations are needed before sending marketing campaigns to all users?", "expected": ["mem_0938"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_140", "query": "Should I set maximum CPU constraints on my containers?", "expected": ["mem_0959"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_141", "query": "How can I make our application deployments faster?", "expected": ["mem_0994"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_142", "query": "What's the correct way to handle retry logic for background tasks?", "expected": ["mem_0967"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_143", "query": "How do I secure incoming webhook requests from external services?", "expected": ["mem_0977"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_144", "query": "How can I optimize GraphQL query performance when fetching related data?", "expected": ["mem_0968"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_145", "query": "Why aren't my custom styles applying to shared UI components?", "expected": ["mem_0944"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_146", "query": "How can I improve troubleshooting in production with better trace data?", "expected": ["mem_0956"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_147", "query": "What's the recommended approach for managing access credentials lifecycle?", "expected": ["mem_0988"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_148", "query": "Why do my historical analytics charts show different granularity than recent data?", "expected": ["mem_0918"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_149", "query": "How can we reduce deployment failures and manual intervention time?", "expected": ["mem_0990"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_150", "query": "Why are users receiving the same notification multiple times?", "expected": ["mem_0963"], "category": "cross_project", "difficulty": "medium"}
+{"id": "q_151", "query": "How do we prevent failure cascades while maintaining audit trails across distributed service boundaries?", "expected": ["mem_0167", "mem_0032", "mem_0122"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_152", "query": "What strategies combine centralized policy enforcement with dynamic infrastructure discovery for high availability?", "expected": ["mem_0114", "mem_0190", "mem_0030"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_153", "query": "How can we optimize for both burst traffic patterns and long-term query reduction across different caching layers?", "expected": ["mem_0160", "mem_0177", "mem_0013"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_154", "query": "Which architectural patterns enable client simplification while preserving team autonomy in polyglot environments?", "expected": ["mem_0053", "mem_0162", "mem_0153"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_155", "query": "How do we balance cost optimization with instantaneous deployment safety for event-triggered workloads?", "expected": ["mem_0028", "mem_0006", "mem_0170"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_156", "query": "What approaches address offline-first requirements while maintaining real-time synchronization and low latency?", "expected": ["mem_0098", "mem_0141", "mem_0168"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_157", "query": "How can we achieve regulatory isolation while enabling near real-time aggregation for analytical workloads?", "expected": ["mem_0183", "mem_0066", "mem_0137"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_158", "query": "Which patterns support schema evolution flexibility while ensuring type safety and performance at scale?", "expected": ["mem_0192", "mem_0153", "mem_0164"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_159", "query": "How do we decompose tightly coupled systems while eliminating infrastructure management overhead for internal connectivity?", "expected": ["mem_0003", "mem_0097", "mem_0078"], "category": "architecture", "difficulty": "hard"}
+{"id": "q_160", "query": "How should I structure async database operations with proper error context and transactions in Python?", "expected": ["mem_0308", "mem_0334", "mem_0227"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_161", "query": "What's the correct pattern for handling errors with traceability throughout the request lifecycle from middleware to logging?", "expected": ["mem_0370", "mem_0273", "mem_0251"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_162", "query": "How do I set up type-safe constants with proper literal inference and use them in discriminated unions for state management?", "expected": ["mem_0399", "mem_0378", "mem_0356"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_163", "query": "What patterns should I follow for creating test data with proper isolation and database setup?", "expected": ["mem_0270", "mem_0231", "mem_0228"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_164", "query": "How should I architect domain events with async handlers while maintaining security and rate limiting?", "expected": ["mem_0380", "mem_0292", "mem_0385", "mem_0400"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_165", "query": "What's the idiomatic way to handle ownership and serialization of errors in Rust with proper trait implementations?", "expected": ["mem_0268", "mem_0276", "mem_0331"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_166", "query": "How do I organize feature modules with proper dependency injection for repositories while avoiding circular dependencies?", "expected": ["mem_0359", "mem_0396", "mem_0305"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_167", "query": "What's the complete pattern for building validated objects in Rust using compile-time checks with proper state transitions?", "expected": ["mem_0230", "mem_0331", "mem_0276"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_168", "query": "How should I structure read-write separation with proper interface design and type safety in TypeScript?", "expected": ["mem_0393", "mem_0328", "mem_0356", "mem_0360"], "category": "code_patterns", "difficulty": "hard"}
+{"id": "q_169", "query": "What's your philosophy on maintaining code quality automatically while keeping human review focused on high-level concerns?", "expected": ["mem_0541", "mem_0531", "mem_0439"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_170", "query": "How do you balance explicit documentation with code readability in TypeScript projects?", "expected": ["mem_0524", "mem_0423", "mem_0466", "mem_0510"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_171", "query": "Describe your approach to handling asynchronous operations safely with proper structure and error boundaries", "expected": ["mem_0404", "mem_0413", "mem_0517"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_172", "query": "What principles guide your TypeScript type system usage for maintainability and refactoring ease?", "expected": ["mem_0528", "mem_0429", "mem_0468", "mem_0527"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_173", "query": "How do you ensure consistency and prevent issues before code reaches version control?", "expected": ["mem_0531", "mem_0411", "mem_0439"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_174", "query": "What strategies do you use to make modules more maintainable and refactoring-friendly in TypeScript?", "expected": ["mem_0461", "mem_0407", "mem_0429"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_175", "query": "Describe your approach to making code communicate intent without relying on external documentation", "expected": ["mem_0524", "mem_0426", "mem_0476", "mem_0406"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_176", "query": "How do you structure error handling to be both type-safe and debuggable in modern Node.js applications?", "expected": ["mem_0454", "mem_0404", "mem_0528"], "category": "user_preferences", "difficulty": "hard"}
+{"id": "q_177", "query": "What infrastructure tooling manages our cloud resources and where can I find the deployment state tracking mechanism?", "expected": ["mem_0643"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_178", "query": "How do we ensure code accessibility standards while using our modern JavaScript framework stack?", "expected": ["mem_0625"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_179", "query": "What's our approach to progressive traffic shifting during releases and what safety mechanisms protect against bad deployments?", "expected": ["mem_0597"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_180", "query": "Where are the distributed search and logging systems hosted, and what's their cluster topology?", "expected": ["mem_0631", "mem_0667"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_181", "query": "What secure endpoints handle payment webhooks and what isolation requirements exist for payment processing infrastructure?", "expected": ["mem_0740", "mem_0663"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_182", "query": "How do we manage runtime version consistency across our JavaScript stack and what mechanisms lock these versions?", "expected": ["mem_0710", "mem_0625", "mem_0716"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_183", "query": "What dual-protocol service architecture exists for notifications and what's the connection pooling strategy for backend data access?", "expected": ["mem_0562", "mem_0553"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_184", "query": "Where can I find observability dashboards and what's the metrics collection configuration including retention strategy?", "expected": ["mem_0724", "mem_0586"], "category": "project_facts", "difficulty": "hard"}
+{"id": "q_185", "query": "How did we handle situations where build artifacts weren't reproducible or consistent across environments, especially when dealing with package managers and dependency versioning?", "expected": ["mem_0767", "mem_0895", "mem_0762"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_186", "query": "What patterns emerged when container orchestration systems caused services to appear ready but couldn't actually process requests, and how did we differentiate between startup readiness and actual service availability?", "expected": ["mem_0863", "mem_0857", "mem_0779"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_187", "query": "Show me cases where automated processes were consuming excessive resources because they were operating on unexpectedly large datasets that grew over time without proper filtering or cleanup", "expected": ["mem_0784", "mem_0874", "mem_0892"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_188", "query": "Find issues where the root cause was configuration state being lost during system upgrades or resets, requiring restoration and better infrastructure-as-code practices", "expected": ["mem_0779", "mem_0777", "mem_0841"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_189", "query": "What troubleshooting cases involved query performance degradation that was fixed by rebuilding database optimizer statistics or metadata after maintenance operations?", "expected": ["mem_0758", "mem_0817", "mem_0875"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_190", "query": "Show incidents where message processing systems were failing silently due to improper error handling combined with unexpected data formats or missing validation", "expected": ["mem_0793", "mem_0858"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_191", "query": "Find problems where CI/CD pipelines had hidden race conditions or timing dependencies that weren't immediately obvious, requiring deeper investigation of container startup sequences or service synchronization", "expected": ["mem_0857", "mem_0863", "mem_0842"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_192", "query": "What issues did we encounter where build or compilation times became unacceptable due to misconfigured tools processing far more files than necessary or lacking proper exclusion patterns?", "expected": ["mem_0862", "mem_0891", "mem_0791", "mem_0752"], "category": "troubleshooting", "difficulty": "hard"}
+{"id": "q_193", "query": "How can we ensure financial operations remain reliable during infrastructure changes without causing service interruptions?", "expected": ["mem_0999", "mem_0996", "mem_0974"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_194", "query": "What architectural patterns help prevent cascading failures when multiple services need to coordinate changes atomically?", "expected": ["mem_0974", "mem_0964", "mem_0961"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_195", "query": "How should we handle long-running operations that exceed typical request timeouts while maintaining idempotency guarantees?", "expected": ["mem_0910", "mem_0967", "mem_0985"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_196", "query": "What infrastructure components work together to prevent duplicate processing in distributed systems that handle financial data?", "expected": ["mem_0999", "mem_0950", "mem_0961"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_197", "query": "How can we maintain API stability for external clients while evolving internal service dependencies and configurations?", "expected": ["mem_0973", "mem_0993", "mem_0989"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_198", "query": "What patterns help optimize resource utilization when processing varies between compute-intensive and I/O-bound workloads at scale?", "expected": ["mem_0929", "mem_0920", "mem_0986"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_199", "query": "How do we coordinate scheduled maintenance windows across services that have overlapping data dependencies and locking requirements?", "expected": ["mem_0922", "mem_0902", "mem_0996"], "category": "cross_project", "difficulty": "hard"}
+{"id": "q_200", "query": "What combination of security controls prevents unauthorized access while ensuring privileged operations can bypass performance optimizations when necessary?", "expected": ["mem_0932", "mem_0965", "mem_0972"], "category": "cross_project", "difficulty": "hard"}
