@@ -328,6 +328,22 @@ async def run_temporal_phase(
     }
 
 
+def _content_matches(original: str, recalled: str) -> bool:
+    """Check if recalled content matches the original (exact or fuzzy).
+
+    Handles cases where the system returns a paraphrase variant instead of the
+    verbatim original — e.g. prefixed with "Note: " or lowercased.
+    """
+    if original == recalled:
+        return True
+    # Case-insensitive substring: original contained in recalled or vice-versa
+    orig_lower = original.lower()
+    recall_lower = recalled.lower()
+    if orig_lower in recall_lower or recall_lower in orig_lower:
+        return True
+    return False
+
+
 def generate_paraphrase(content: str, index: int) -> str:
     """Generate a deterministic paraphrase of memory content."""
     variant = index % 4
@@ -398,8 +414,8 @@ async def run_dedup_phase(
         try:
             recall_results, elapsed = await _timed(adapter.recall(original, limit=1))
             recall_timings.append(elapsed)
-            # Check if original content is retrievable (exact or close match)
-            retrieved = any(r.content == original for r in recall_results)
+            # Check if original content is retrievable (exact or fuzzy match)
+            retrieved = any(_content_matches(original, r.content) for r in recall_results)
             results.append(
                 DedupResult(
                     pair_id=pair_id,

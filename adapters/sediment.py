@@ -120,6 +120,10 @@ class SedimentAdapter(MemoryAdapter):
         return items
 
     async def count(self) -> int:
-        # Sediment's list endpoint caps results at 100 items, so we track
-        # successful stores internally for an accurate count.
-        return self._store_count
+        """Query Sediment's list tool for the real item count."""
+        try:
+            result = await self._call_with_retry("list", {"limit": 1, "scope": "all"})
+            data = json.loads(result.content[0].text)
+            return data.get("count", self._store_count)
+        except Exception:
+            return self._store_count
