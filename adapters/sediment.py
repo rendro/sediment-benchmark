@@ -19,8 +19,13 @@ INITIAL_BACKOFF = 1.0  # seconds
 class SedimentAdapter(MemoryAdapter):
     name = "sediment"
 
-    def __init__(self, sediment_bin: str = "sediment") -> None:
+    def __init__(
+        self,
+        sediment_bin: str = "sediment",
+        extra_env: dict[str, str] | None = None,
+    ) -> None:
         self._bin = sediment_bin
+        self._extra_env = extra_env or {}
         self._db_dir: str | None = None
         self._stdio_cm: object | None = None
         self._session_cm: object | None = None
@@ -37,7 +42,7 @@ class SedimentAdapter(MemoryAdapter):
         assert self._db_dir is not None
         server_params = StdioServerParameters(
             command=self._bin,
-            env={**os.environ, "SEDIMENT_DB": self._db_dir},
+            env={**os.environ, "SEDIMENT_DB": self._db_dir, **self._extra_env},
         )
         self._stdio_cm = stdio_client(server_params)
         read, write = await self._stdio_cm.__aenter__()
