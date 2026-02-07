@@ -2,8 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 results/raw/
-results/report.md
-results/data.json
 *.egg-info/
 dist/
 .chroma/
